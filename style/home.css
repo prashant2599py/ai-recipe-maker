@@ -60,6 +60,7 @@ nav a:hover{
     position: relative;
     /* height: 100%; */
     background-image: url(/background-image.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
@@ -135,7 +136,7 @@ input[type="email"] {
     box-sizing: border-box;
 }
 button {
-    background-color: #4caf50;
+    background-color: #143116;
     color: #fff;
     padding: 12px;
     font-size: 1.5rem;
