@@ -5,34 +5,21 @@ body {
     background-color: #f8f8f8;
     color: #333;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px 0;
-    text-align: center;
-}
-nav {
-    background-color: #4caf50;
-    padding: 10px;
-    text-align: center;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
-}
 section {
     padding: 20px;
     margin: 20px 0;
 }
+section p{
+    font-weight: 600;
+}
 h2 {
     color: #333;
     font-size: 2rem;
-    margin-left: 35px
+    margin-left: 20px
 }
 p {
     font-size: 16px;
+    margin-left: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -44,4 +31,39 @@ p {
 .team-member img {
     border-radius: 50%;
     margin-right: 15px;
+    margin-left: 20px;
+}
+
+.top-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 100vh;
+    
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.paragraph{
+    text-align: left;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+
+.Top-team{
+    background-color: rgb(226 232 240);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.history{
+    background-color: rgb(203 213 225);
+    text-align: center;
 }

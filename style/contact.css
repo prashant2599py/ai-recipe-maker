@@ -11,20 +11,19 @@ body {
     color: white;
 }
 
-.container{
+#contact{
   background-image: url("/bg_image.jpeg");
-  height: auto;
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover; 
 }
 .row{
+  padding-top: 20px;
   height: 618px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
- 
-  
+  justify-content: left;
+  flex-wrap: wrap; 
 }
 .contact-left{
   color: whitesmoke;
