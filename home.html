@@ -13,12 +13,28 @@
         <p class="subHeading">Discover, Cook, Enjoy!</p>
     </header>
 
+    
+    <!-- <script>
+        function redirectToAuth(action) {
+            if (action === 'login') {
+                window.location.href = './log/login.php';
+            } else if (action === 'register') {
+                window.location.href = './log/register.php';
+            }
+        }
+    </script> -->
+
+
+    
+
     <nav>
         <a href="#">Home</a>
-        <a href="./ai-recipe-generator/index.html" target="_blank">Recipes</a>
+        <!-- <a href="./ai-recipe-generator/index.html" target="_blank">Recipes</a> -->
+        <a href="./main_signin_signup.html">Recipes</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
-        <a href="register.html">Register</a>
+        <a href="blog.html">Blog</a>
+        
     </nav>
 
     <div class="container">
@@ -59,6 +75,28 @@
             <button type="submit">Subscribe</button>
         </form>
     </section>
+
+    <!-- <script>
+        function redirectToAuth(action) {
+        // Assuming you have a server-side script handling the authentication
+        // You need to replace the URLs with the actual paths to your login and register scripts
+        var authUrl = './log/login.php';
+        var recipesUrl = './ai-recipe-generator/index.html';
+
+        // Use AJAX or other methods to send the action to the server-side script
+        // Here, for simplicity, we assume the server-side script handles the action
+        // and redirects accordingly
+
+        // For demonstration purposes, we'll use a simple timeout to simulate server processing
+        setTimeout(function () {
+            if (action === 'login') {
+                window.location.href = recipesUrl; // Redirect to ai-generator after successful login
+            } else {
+                window.location.href = authUrl + '?action=register'; // Redirect to register page
+            }
+        }, 1000); // Simulate a delay (replace with actual server-side processing time)
+    }
+    </script> -->
 
 </body>
 </html>

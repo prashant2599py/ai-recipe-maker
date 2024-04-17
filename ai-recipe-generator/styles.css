@@ -63,6 +63,23 @@ body {
     padding: 16px 24px;
     margin-left: 12px;
   }
+
+  .button{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #d11717;
+    border-radius: 48px;
+    border: none;
+    padding: 16px 24px;
+    margin-left: 12px;
+  }
+  .youtube{
+    display: flex;
+    justify-content: center;
+  }
+  
   
   .hidden {
     display: none;
@@ -90,6 +107,8 @@ body {
   .blink {
     animation: blink 1s linear infinite;
   }
+  
+  
   @keyframes blink {
     0% {
       opacity: 0;

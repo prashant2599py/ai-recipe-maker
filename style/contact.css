@@ -12,7 +12,7 @@ body {
 }
 
 #contact{
-  background-image: url("/bg_image.jpeg");
+  background-image: url("../bg_image.jpeg");
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;

@@ -12,34 +12,50 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+
     <title>RECIPE GENERATOR</title>
   </head>
+
   <body>
+
     <main class="container">
       <h1>AI Recipe Generator 🥘</h1>
 
       <section>
-        <form id="recipe-form">
-          <input
-            type="text"
-            name="enter-recipe-topic"
-            placeholder="Enter a recipe subject"
-            autofocus
-            required
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
-        <div class="hints">
-          i.e. western cuisine, french pastries, japanese desserts
-        </div>
+            <form id="recipe-form">
+                <input type="text" name="enter-recipe-topic"  placeholder="Enter a recipe subject"
+                  autofocus
+                  required
+                  class="instructions"
+                  id="inputvalue"
+                />
+                <input type="submit" value="Submit" class="submit-button" />
+            </form>
+
+          <div class="youtube">
+            <button onclick="location.href = '../youtubeAPI/index.html'"  class="button">Search</button
+          </div>
+          <div class="hints">
+            i.e. western cuisine, french pastries, japanese desserts
+          </div>
       </section>
+
+      <!-- Loader -->
+      <div class="container-loading">
+        <div class="loader"></div>
+      </div>
 
       <section>
         <div class="recipe hidden" id="recipe"></div>
       </section>
+
     </main>
+
+    <div class="result"></div>
+
+    <!-- Recipe generation -->
     <script src="script.js"></script>
+    
   </body>
 </html>
